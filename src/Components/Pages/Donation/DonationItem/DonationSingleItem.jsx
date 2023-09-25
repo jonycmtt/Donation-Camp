@@ -29,7 +29,7 @@ const DonationSingleItem = ({ donationItem }) => {
           <p className=" my-2 block  text-lg font-bold leading-relaxed text-gray-700 antialiased">
             ${donationItem.price}.00
           </p>
-          <Link >
+          <Link to={`/donationCard/${donationItem.id}`}>
               <button style={{background : `${donationItem.text_button_bg}`}} className="btn btn-sm text-white">View Details</button>
           </Link>
         </div>
