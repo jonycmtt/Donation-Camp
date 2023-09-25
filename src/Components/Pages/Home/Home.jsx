@@ -1,7 +1,8 @@
 // import { useState } from "react";
-import { useLoaderData } from "react-router-dom";
-import DonationsItem from "../../DonationsItems/DonationsItem";
+
 import Header from "../../Header/Header";
+import DonationsItem from "../../DonationsItems/DonationsItem";
+import { useLoaderData } from "react-router-dom";
 
 const Home = () => {
   const donationContainer = useLoaderData();
