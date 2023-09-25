@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <>
      <Header></Header>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-6xl mx-auto my-12">
         {donationContainer.map((donations) => (
           <DonationsItem
             key={donations.id}
