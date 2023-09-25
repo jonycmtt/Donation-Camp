@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const DonationsItem = ({ donations }) => {
   const {
     card_bg,
@@ -13,7 +15,20 @@ const DonationsItem = ({ donations }) => {
   // console.log(donations);
   return (
     <>
-     <h2>Hello</h2>
+      <Link to={`/donationCard/${id}`}>
+      <div style={{background : `${card_bg}`}} className="card">
+        <figure className="">
+          <img className="w-full"
+            src={image}
+            alt="donation-img"
+          />
+        </figure>
+        <div className="px-3 py-4">
+          <span style={{background : `${category_bg}`,color : `${text_button_bg}`}} className="btn btn-sm my-1 text-sm">{category}</span>
+          <h2 style={{color : `${text_button_bg}`}} className="text-lg font-semibold">{title}</h2>
+        </div>
+      </div>
+      </Link>
     </>
   );
 };
