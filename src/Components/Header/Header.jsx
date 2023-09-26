@@ -1,7 +1,11 @@
-// import Navbar from "./Navbar/Navbar";
-// import banner from "../../../assets/hero.png";
+import { useState } from "react";
 
-const Header = () => {
+const Header = ({handleSearch}) => {
+  const [inputValue,setInputValue] = useState();
+
+  const handleSetInput = (e) => {
+    setInputValue(e.target.value)
+  }
   const bannerBackground = {
     background: `linear-gradient(rgba(255, 255, 255, 0.95),rgba(255, 255, 255, 0.95)),url(https://i.ibb.co/sbqscqM/hero.png)`,
     backgroundSize: "cover",
@@ -22,12 +26,12 @@ const Header = () => {
           </h1>
           <div className="">
             <label className="input-group sm:flex-row justify-center items-center mt-6">
-              <input
+              <input value={inputValue} onChange={inputValue} id="input-Field"
                 type="text"
                 placeholder="Search here...."
                 className="input input-bordered  rounded-r-none border-r-0 focus:outline-none"
               />
-              <button className="btn bg-[#FF444A] hover:bg-rose-500 text-white">
+              <button onClick={() => handleSearch(handleSetInput)} className="btn bg-[#FF444A] hover:bg-rose-500 text-white">
                 Search
               </button>
             </label>
