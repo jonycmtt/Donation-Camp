@@ -2,12 +2,12 @@
   {
     "id": 1,
     "image": "https://i.ibb.co/ZxhnYTB/education-Big.jpg",
-    "title": "Good education",
+    "title": "Education Fund",
     "category": "education",
     "category_bg": "#FF444A33",
     "card_bg": "#FF444A26",
     "text_button_bg": "#FF444A",
-    "description": "Support education initiatives to provide quality learning opportunities for children and students.",
+    "description": "Education is a gateway to empowerment, enlightenment, and prosperity. It shapes minds, transforms lives, and nurtures the leaders of tomorrow. By supporting the Education Fund, you are sowing the seeds of a brighter future. Your donation fuels initiatives that provide quality learning opportunities for children and students from all walks of life. It bridges the educational divide, ensuring that every child has access to quality education. Scholarships, teacher training, and advancements in educational infrastructure are made possible through your generous contribution.Imagine a world where every child, regardless of their background, has the chance to fulfill their academic potential. Your support paves the way for this reality. Education is not just about textbooks; it's about fostering creativity, critical thinking, and problem-solving skills. It's about preparing individuals to face the challenges of the world and make meaningful contributions.Join us in this educational journey, where your philanthropy nurtures bright minds, fosters innovation, and builds a world where education is a right, not a privilege. Together, we can illuminate countless lives and create a society where knowledge is the cornerstone of progress.",
     "price": 25.0
   },
   {
@@ -18,7 +18,7 @@
     "category_bg": "#0052FF33",
     "card_bg": "#0052FF26",
     "text_button_bg": "#0052FF",
-    "description": "Help provide access to essential healthcare services and improve overall health outcomes in underserved areas.",
+    "description": "Health is wealth. This adage holds true, highlighting the fundamental importance of good health in leading a fulfilling life. Yet, millions around the world lack access to essential healthcare services. By supporting Healthcare Access, you're actively contributing to changing this reality. Your generous donation aids in providing medical facilities, vaccinations, health education, and access to vital medications.    Imagine a world where preventable diseases are indeed prevented, where healthcare is not a luxury but a right. Your donation helps make this vision a reality. It empowers communities to take charge of their health, promoting overall well-being and longevity. From routine check-ups to life-saving treatments, your support ensures that individuals can access the healthcare they need, when they need it.Join us in this noble cause, where your compassion helps build a healthier world, one person at a time. Let's stand together to ensure that quality healthcare is accessible to all, regardless of their circumstances. Together, we can make a lasting difference in the lives of countless individuals, promoting a society where health truly is a universal asset.",
     "price": 30.0
   },
   {
@@ -29,7 +29,7 @@
     "category_bg": "#79C23F33",
     "card_bg": "#79C23F26",
     "text_button_bg": "#79C23F",
-    "description": "Support initiatives to conserve the environment and promote sustainable practices for a better future.",
+    "description": "next cloth space",
     "price": 20.0
   },
   {
@@ -40,7 +40,7 @@
     "category_bg": "#0052FF33",
     "card_bg": "#0052FF26",
     "text_button_bg": "#0052FF",
-    "description": "Contribute to the well-being and protection of animals by supporting animal welfare organizations.",
+    "description": "Animals, too, deserve compassion and care. Supporting Animal Welfare is a pledge to protect and improve the lives of countless sentient beings. Your contribution enables the rescue, rehabilitation, and care of animals in need. It's a stand against animal cruelty, a testament to the belief that all living creatures deserve kindness and respect.Imagine a world where animals are not just safe but thrive in a nurturing environment. Your donation helps make this vision a reality. It provides a lifeline for animals subjected to abuse, neglect, and suffering. From shelter to veterinary care, your support ensures they receive the care and love they deserve.Join us in this compassionate cause, where your generosity creates a world where animals are treated with empathy and understanding. Let's strive for a society where animals can live their lives free from harm and cruelty.",
     "price": 15.0
   },
   {
@@ -51,7 +51,7 @@
     "category_bg": "#F8714733",
     "card_bg": "#F8714726",
     "text_button_bg": "#F87147",
-    "description": "Help fight hunger by supporting organizations that provide food assistance to those in need.",
+    "description": "Hunger is a pressing issue affecting millions globally. Your contribution to Hunger Relief directly addresses this crisis, supporting organizations providing food assistance to those in need. Your donation helps distribute meals, enhance food security, and empower communities to break free from the cycle of hunger.Imagine a world where every stomach is full, where nutritious meals are not a privilege but a right. Your donation helps make this vision a reality. It brings hope to those struggling with hunger, providing sustenance and nourishment. From children to the elderly, your support ensures that no one goes to bed hungry.Join us in the fight against hunger, where your benevolence transforms lives and brings smiles to countless faces. Let's work together towards a future where hunger is eradicated, and everyone has access to sufficient, nutritious food.",
     "price": 10.0
   },
   {
@@ -62,7 +62,7 @@
     "category_bg": "#FF444A33",
     "card_bg": "#FF444A26",
     "text_button_bg": "#FF444A",
-    "description": "Contribute to initiatives that empower communities and promote sustainable development.",
+    "description": "Communities are the bedrock of society, and their development is paramount for a prosperous future. Your support for Community Development fuels initiatives that uplift and strengthen communities. Your donation assists in providing clean water access, sanitation facilities, skill development programs, and infrastructure improvements. Imagine a world where every community thrives, where basic amenities are accessible to all. Your donation helps build this world. It enhances the quality of life, empowering individuals to become self-reliant and contributing members of society. From education to healthcare, your support fosters growth, resilience, and sustainability.Join us in this transformative journey, where your generosity creates communities that flourish. Let's strive for a society where every individual has the opportunity to lead a fulfilling and prosperous life.",
     "price": 35.0
   },
   {
@@ -73,7 +73,7 @@
     "category_bg": "#F8714733",
     "card_bg": "#F8714726",
     "text_button_bg": "#F87147",
-    "description": "Support the arts and cultural programs that enrich society and preserve heritage.",
+    "description": "Arts and culture enrich our lives, shaping our identities and societies. Supporting Arts and Culture is a commitment to preserving and promoting the diversity of human expression. Your donation helps fund art exhibitions, cultural events, heritage preservation initiatives, and programs that celebrate creativity and innovation. Imagine a world where the arts are not just appreciated but celebrated, where diverse cultures and traditions are respected and cherished. Your donation helps make this vision a reality. It provides a platform for artists to showcase their talent, preserving our cultural heritage for future generations.Join us in this artistic endeavor, where your patronage nurtures the arts and culture. Let's work together to create a society where creativity flourishes, and the beauty of human expression is treasured.",
     "price": 18.0
   },
   {
@@ -84,7 +84,7 @@
     "category_bg": "#0052FF33",
     "card_bg": "#0052FF26",
     "text_button_bg": "#0052FF",
-    "description": "Provide assistance and support to communities affected by natural disasters and emergencies.",
+    "description": "Disasters can strike at any moment, leaving communities devastated and in need of urgent support. Your donation to Disaster Relief is a lifeline to those affected by natural calamities and emergencies. Your support aids in disaster preparedness, relief supply distribution, and rebuilding efforts, helping affected communities recover and rebuild stronger, more resilient societies.Imagine a world where communities recover swiftly after disasters, where the scars of calamities heal, and resilience is fortified. Your donation helps make this vision a reality. It provides critical assistance, offering hope and comfort to those facing the aftermath of disasters.Join us in this humanitarian cause, where your compassion alleviates suffering and aids in rebuilding lives. Let's unite to create a world where communities can recover swiftly and stand strong in the face of adversity.",
     "price": 22.0
   },
   {
@@ -95,7 +95,7 @@
     "category_bg": "#79C23F33",
     "card_bg": "#79C23F26",
     "text_button_bg": "#79C23F",
-    "description": "Empower and uplift women by supporting initiatives that promote gender equality and opportunity.",
+    "description": "Empowering women is pivotal to creating an equitable and just society. Your contribution to Women's Empowerment funds programs that promote gender equality, education, skill development, entrepreneurship, and health awareness. By supporting this cause, you're enabling women to break barriers, achieve their goals, and contribute meaningfully to society.Imagine a world where women are not just empowered but celebrated for their achievements, where gender biases and discrimination are eradicated.",
     "price": 28.0
   },
   {
