@@ -16,7 +16,7 @@ const Donation = () => {
   }, []);
 
   return (
-    <div className="max-w-6xl mt-32 mx-auto">
+    <div className="max-w-6xl mt-36 sm:mt-32 mx-auto">
       {notFound ? (
         <p className="h-[400px] flex justify-center items-center text-4xl font-bold">
           {notFound}
@@ -44,7 +44,7 @@ const Donation = () => {
       donationItem.length > 4 &&  <div className="my-8">
       <button
         onClick={() => setSeeMore(!seeMore)}
-        className="btn text-white bg-[#009444] block mx-auto"
+        className="btn text-white bg-[#009444] hover:bg-green-600 block mx-auto"
       >
         {seeMore ? "See Less" : 'See More'}
       </button>

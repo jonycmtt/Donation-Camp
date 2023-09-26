@@ -1,7 +1,11 @@
 import { Link, NavLink } from "react-router-dom";
-// import logo from "../../assets/Logo.png";
+import { HiMenu } from 'react-icons/hi';
+import { GrFormClose } from 'react-icons/gr';
+import { useState } from "react";
 
 const Navbar = () => {
+  const [mobileMenu,setMobileMenu] = useState(false);
+  console.log(mobileMenu)
   return (
     <div className="">
       <nav className="z-50 flex justify-between items-center max-w-6xl mx-auto py-5 px-6">
@@ -10,7 +14,7 @@ const Navbar = () => {
             <img className="w-44" src={'https://i.ibb.co/StdQbJ4/Logo.png'} alt="" />
           </Link>
         </div>
-        <ul className="md:flex items-center gap-5 hidden">
+        <ul className={`sm:flex items-center gap-5  flex-row absolute left-1/2 -translate-x-1/2 sm:-translate-x-0  top-24 sm:left-0 sm:top-0 sm:static ${mobileMenu ? 'flex' : 'hidden'}`}>
           <li>
             <NavLink
               to="/"
@@ -42,6 +46,11 @@ const Navbar = () => {
             </NavLink>
           </li>
         </ul>
+        <div className="text-3xl cursor-pointer block  sm:hidden" onClick={() => setMobileMenu(!mobileMenu)}>
+       {
+        mobileMenu ? <GrFormClose></GrFormClose> : <HiMenu ></HiMenu>
+       }
+        </div>
       </nav>
     </div>
   );

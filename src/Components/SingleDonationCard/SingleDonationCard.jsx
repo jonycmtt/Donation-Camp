@@ -41,7 +41,7 @@ const SingleDonationCard = () => {
   };
   return (
     <>
-      <div className="max-w-6xl mt-24 mx-auto">
+      <div className="max-w-6xl mt-36 sm:mt-24  mx-auto">
         <figure className="w-full relative overflow-hidden rounded-md">
           <img
             src={donationDetails.image}

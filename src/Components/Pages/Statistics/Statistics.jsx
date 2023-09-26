@@ -49,7 +49,7 @@ const Statistics = () => {
                   cy="50%"
                   labelLine={false}
                   label={renderCustomizedLabel}
-                  outerRadius={120}
+                  outerRadius={95}
                   fill="#8884d8"
                   dataKey="value"
                 >

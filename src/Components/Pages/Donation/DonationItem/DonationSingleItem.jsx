@@ -4,8 +4,8 @@ const DonationSingleItem = ({ donationItem }) => {
   console.log(donationItem);
   return (
     <>
-      <div style={{background : `${donationItem.card_bg}`}} className="relative flex w-full flex-row text-gray-700 rounded-md">
-        <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
+      <div style={{background : `${donationItem.card_bg}`}} className="relative flex w-full flex-col sm:flex-row text-gray-700 rounded-md">
+        <div className="relative m-0 w-full sm:w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
           <img
             src={donationItem.image}
             className="h-full w-full object-cover"
