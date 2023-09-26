@@ -17,8 +17,8 @@ const DonationsItem = ({ donations }) => {
     <>
       <Link to={`/donationCard/${id}`}>
       <div style={{background : `${card_bg}`}} className="card">
-        <figure className="">
-          <img className="w-full"
+        <figure className="h-52">
+          <img className="w-full h-full"
             src={image}
             alt="donation-img"
           />
