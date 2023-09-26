@@ -26,7 +26,7 @@ const SingleDonationCard = () => {
         const isExits = getDonationCard.find((card) => card.id === idInt);
 
         if(isExits) {
-          return  swal("Ops!", "Donation Duplicated!", "error");
+          return  swal("Ops!", "Already Added!", "error");
         }
         donationCard.push(...getDonationCard,donationDetails);
         localStorage.setItem('donation',JSON.stringify(donationCard));

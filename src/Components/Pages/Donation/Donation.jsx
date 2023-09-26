@@ -40,16 +40,18 @@ const Donation = () => {
                 ))}
         </div>
       )}
-     {
-      donationItem.length > 4 &&  <div className="my-8">
-      <button
-        onClick={() => setSeeMore(!seeMore)}
-        className="btn text-white bg-[#009444] hover:bg-green-600 block mx-auto"
-      >
-        {seeMore ? "See Less" : 'See More'}
-      </button>
-    </div>
-     }
+      {donationItem.length > 4 && (
+        <div className="my-8">
+          <button
+            onClick={() => setSeeMore(!seeMore)}
+            className={`btn text-white bg-[#009444] hover:bg-green-600 block mx-auto ${
+              seeMore ? "hidden" : ""
+            }`}
+          >
+            See More
+          </button>
+        </div>
+      )}
     </div>
   );
 };
